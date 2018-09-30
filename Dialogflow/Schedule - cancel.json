@@ -1,0 +1,179 @@
+{
+  "id": "21fc3d53-7fbd-4c8b-b8a9-a44bd7b9e691",
+  "parentId": "3c7fdc7a-5c45-4c04-ad5c-2b6bd88e3b81",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "Schedule - cancel",
+  "auto": true,
+  "contexts": [
+    "Schedule-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Schedule-cancel",
+      "affectedContexts": [
+        {
+          "name": "cancel-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Schedule-cancel-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "okay! kindly provide appliance model number"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538322249,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3fa03a4b-73c7-4557-a40a-b61e638ffade",
+      "data": [
+        {
+          "text": "stop",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8e65f230-dfe4-4577-ac70-0e8c7d17361f",
+      "data": [
+        {
+          "text": "stop it",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dcf62b02-7c7d-4f5c-8d5b-d6609b689d42",
+      "data": [
+        {
+          "text": "never mind",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3383d6e2-d24d-45a9-a3df-29a8c2f6d455",
+      "data": [
+        {
+          "text": "just forget about it",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "52873529-7f52-40b2-ac16-753c669fad11",
+      "data": [
+        {
+          "text": "do nothing",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d33322d2-bc46-43fc-a79b-7de688c084bd",
+      "data": [
+        {
+          "text": "skip",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "82546d56-57dc-42c2-bc72-0ad51acf0fe9",
+      "data": [
+        {
+          "text": "cancel that",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 5,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "65e8b60a-56fa-42ac-88a9-a73a76f78683",
+      "data": [
+        {
+          "text": "forget that",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fa6994fe-1af5-4265-ba24-ab86a69aa012",
+      "data": [
+        {
+          "text": "cancel",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "84021d73-37ae-449f-8f90-eed72cb69c61",
+      "data": [
+        {
+          "text": "dismiss",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

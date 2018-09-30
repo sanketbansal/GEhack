@@ -1,0 +1,71 @@
+{
+  "id": "9fc87bad-e24e-4ee7-becf-295af3ea81a2",
+  "parentId": "9ef9441c-5377-41bb-badc-4c740de4b07f",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "trackid",
+  "auto": true,
+  "contexts": [
+    "Details-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Details-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "track-details",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "073d76df-cdc5-4608-8fb0-a4aff95ffc8a",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "trackid",
+          "value": "$trackid",
+          "prompts": [
+            "track id required."
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Providing details for $trackid"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538290629,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "af5506fa-6c20-44a5-8c69-f6bb8cccd10e",
+      "data": [
+        {
+          "text": "567890",
+          "alias": "trackid",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538050148,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

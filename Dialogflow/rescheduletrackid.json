@@ -1,0 +1,84 @@
+{
+  "id": "e42ae584-89af-4e36-94a9-4158a2f93950",
+  "parentId": "9fca5913-2b09-4ee7-b53b-4cfc33e00fcf",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "rescheduletrackid",
+  "auto": true,
+  "contexts": [
+    "Schedule-reschedule-trackid-followup",
+    "reschedule-slot"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Schedule-custom.Schedule-reschedule-custom.Schedule-reschedule-trackid-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4cd3a46c-2c8d-4a4c-ad03-2ef78620181d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "trackid",
+          "value": "$trackid",
+          "prompts": [
+            "Model number required."
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Processing the request\nPlease wait."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538326208,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8c0b21ac-0fe0-467b-84d6-96d33b193560",
+      "data": [
+        {
+          "text": "my model number is "
+        },
+        {
+          "text": "739673496",
+          "alias": "trackid",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538326208,
+      "isAuto": false
+    },
+    {
+      "id": "0fd55237-bf19-4c17-a577-0a61baa96317",
+      "data": [
+        {
+          "text": "3457467637747",
+          "alias": "trackid",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538215065,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

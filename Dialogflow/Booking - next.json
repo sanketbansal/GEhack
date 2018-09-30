@@ -1,0 +1,183 @@
+{
+  "id": "75f65b80-c024-403c-97f2-4d7808624772",
+  "parentId": "8b2ebf55-1460-469c-b5bd-865f0ff87209",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "Booking - next",
+  "auto": true,
+  "contexts": [
+    "Booking-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-next.Booking-next",
+      "affectedContexts": [
+        {
+          "name": "Booking-next-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Use appliance model number to update details.",
+          "replies": [],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "You have successfully booked  the service appointment.\n."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538325740,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "964d5202-67c7-42cb-8e56-581e146cf961",
+      "data": [
+        {
+          "text": "show me the following results",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a10364d8-57b4-4a5e-b79a-547326d516f4",
+      "data": [
+        {
+          "text": "next page",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "29d156d3-4de2-444a-bac7-59ea2a9a8ccd",
+      "data": [
+        {
+          "text": "go to the next page",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f7b923de-c0f6-4c14-aa8e-9410ce8bdf1e",
+      "data": [
+        {
+          "text": "switch to the next",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d3212310-816b-4fef-b561-894c404cf5e9",
+      "data": [
+        {
+          "text": "show me the next page",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3dc33ce1-7b0a-43b8-bc0a-94c53a70fa6a",
+      "data": [
+        {
+          "text": "read the next results",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2b03d1e7-920b-4eb2-8965-6124246bd644",
+      "data": [
+        {
+          "text": "following result",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "45cff3d7-16e3-4d5e-952b-72fc865758bd",
+      "data": [
+        {
+          "text": "go forward",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4e8d9caa-45e0-458c-aafd-b753c6b5f6f5",
+      "data": [
+        {
+          "text": "next",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7c9fb085-9425-4d70-85ab-52f07ddf2e73",
+      "data": [
+        {
+          "text": "show me next",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

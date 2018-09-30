@@ -1,0 +1,90 @@
+{
+  "id": "9fca5913-2b09-4ee7-b53b-4cfc33e00fcf",
+  "parentId": "32ce3369-4ec0-439c-8880-67704a6dcf80",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "Schedule -reschedule -trackid",
+  "auto": true,
+  "contexts": [
+    "Schedule-reschedule-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Schedule-custom.Schedule-reschedule-custom",
+      "affectedContexts": [
+        {
+          "name": "reschedule-slot",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Schedule-reschedule-trackid-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7e3d9376-c263-4993-bc49-abe5da3bd191",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "d5e65318-34bc-432b-8186-2740b4c3b602",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "kindly! provide appliance model number"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538324823,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6a83071d-6daf-44c6-b302-c9f0a162f1bf",
+      "data": [
+        {
+          "text": "monday",
+          "alias": "date",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "5-7 pm",
+          "alias": "time",
+          "meta": "@sys.time-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538294160,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

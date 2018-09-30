@@ -1,0 +1,95 @@
+{
+  "id": "8b2ebf55-1460-469c-b5bd-865f0ff87209",
+  "parentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "Booking",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-next",
+      "affectedContexts": [
+        {
+          "name": "Booking-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Appointment Booking",
+          "subtitle": "",
+          "imageUrl": "https://plachat-9a2af.firebaseapp.com/assets/GE.jpg",
+          "buttons": [
+            {
+              "text": "Fill form",
+              "postback": "https://goo.gl/forms/A68WPN73QIzz58nk1"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "After filling form click next",
+          "replies": [
+            "next"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "Okay, fill the appointment form."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "skype": false,
+        "telegram": false,
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538247804,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7ff3153a-c323-430e-bb7e-7db096bad61a",
+      "data": [
+        {
+          "text": "yeah definitely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538247804,
+      "isAuto": false
+    },
+    {
+      "id": "21647ab2-542e-403f-a5e6-7019b9b8331a",
+      "data": [
+        {
+          "text": "Book appointment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538049366,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

@@ -1,0 +1,316 @@
+{
+  "id": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Choose service",
+          "replies": [
+            "Book Appointment",
+            "Schedule Appointment",
+            "Appointment Details"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Hello! How can I help you?",
+            "Greetings! How can I assist?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false,
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538310235,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "7e7dbf1e-1865-4d28-af44-33e70cca962b",
+      "data": [
+        {
+          "text": "appointment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538310235,
+      "isAuto": false
+    },
+    {
+      "id": "dec6ec27-5200-4688-96bc-769747ebf90e",
+      "data": [
+        {
+          "text": "Details"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538245917,
+      "isAuto": false
+    },
+    {
+      "id": "068d7170-b1de-4792-b456-91266558a967",
+      "data": [
+        {
+          "text": "Schedule"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538245917,
+      "isAuto": false
+    },
+    {
+      "id": "7b728dc0-fdf0-4e84-8c5a-57d68173bbbd",
+      "data": [
+        {
+          "text": "Service"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538213172,
+      "isAuto": false
+    },
+    {
+      "id": "d8d3e3c3-10de-4e90-8e1f-05ad1471f57c",
+      "data": [
+        {
+          "text": "Book"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538245917,
+      "isAuto": false
+    },
+    {
+      "id": "0aa8144a-41a3-4aef-804f-36f3af921973",
+      "data": [
+        {
+          "text": "just going to say hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ae52c915-fe60-4547-9ee7-9ca5e4b8bb64",
+      "data": [
+        {
+          "text": "heya"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1a34d429-9286-4286-ba8f-8b834b47ebbb",
+      "data": [
+        {
+          "text": "hello hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9489ebbc-8e6b-4b8a-8ad1-b3dc0d012a1c",
+      "data": [
+        {
+          "text": "howdy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0bb7ed6e-5e8b-4ba6-bea8-4e12b159b635",
+      "data": [
+        {
+          "text": "hey there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "63007528-0ed7-4858-aa72-1d88b0fc9cc2",
+      "data": [
+        {
+          "text": "hi there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f4ad650f-b0cb-4e9e-920c-097b0dfbe7f7",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c829ffa9-b0e1-4177-b570-8d94d40843de",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "151f10e0-5086-437b-8ca8-9d1e0c34663f",
+      "data": [
+        {
+          "text": "long time no see"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd9ad17e-6c43-432c-97ba-36602b3e2502",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dcc1cbf7-d159-4373-a93d-199394ef9413",
+      "data": [
+        {
+          "text": "lovely day isn't it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "11709fa0-c7b9-46b4-b79a-e0bd2ba4b69e",
+      "data": [
+        {
+          "text": "I greet you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3f9deb74-0c39-4073-8216-d29ab142c41c",
+      "data": [
+        {
+          "text": "hello again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9796b0fc-b00c-436a-9f72-237eb607dab3",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5aadeb46-6948-4c7a-ae74-cb74f8b32b64",
+      "data": [
+        {
+          "text": "hello there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9171a8dd-e5dc-4ab4-827f-2c4d6fa3c51a",
+      "data": [
+        {
+          "text": "a good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

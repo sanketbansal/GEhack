@@ -1,0 +1,56 @@
+{
+  "id": "9ef9441c-5377-41bb-badc-4c740de4b07f",
+  "parentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "rootParentId": "ba51555e-c174-4b9f-855e-09cd536e48cf",
+  "name": "Details",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "Details-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "okay! kindly provide appliance model number."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538322175,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "445cdeab-0017-437d-8e82-086a61902004",
+      "data": [
+        {
+          "text": "Appointment Details"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538049627,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
