@@ -1,6 +1,6 @@
-#cloud
+#cloud folder
 /cloud/functions/node_modules
 
 
-#GEhack
-/GEhack/node_modules
+#ge folder
+/ge/node_modules
